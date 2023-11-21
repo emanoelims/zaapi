@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "lib",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+  }
+}
