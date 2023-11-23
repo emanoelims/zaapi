@@ -1,3 +1,5 @@
+import { post } from '../support/api'
+
 export type SendTextRequest = {
   phone: string
   message: string
@@ -10,9 +12,5 @@ export type SendTextResponse = {
 }
 
 export async function sendText(request: SendTextRequest): Promise<SendTextResponse> {
-  return {
-    zaapId: 'zaapId',
-    messageId: 'messageId',
-    id: 'id'
-  }
+  return await post('/send-text', request)
 }
