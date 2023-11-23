@@ -3,10 +3,10 @@
     "target": "ES2022",
     "module": "CommonJS",
     "allowJs": true,
-    "outDir": "build",
+    "outDir": "dist",
     "rootDir": "lib",
     "strict": true,
     "noImplicitAny": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   }
 }
