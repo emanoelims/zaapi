@@ -4,7 +4,7 @@ export type UserConfig = {
   Z_API_INSTANCE_TOKEN: string
 }
 
-let config = {} as UserConfig
+let config: UserConfig
 
 export function initializeConfig(userConfig: UserConfig) {
   config = userConfig
