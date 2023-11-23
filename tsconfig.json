@@ -4,7 +4,10 @@
     "module": "CommonJS",
     "allowJs": true,
     "outDir": "dist",
-    "rootDir": "lib",
+    "rootDirs": [
+      "lib",
+      "support"
+    ],
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true
